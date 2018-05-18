@@ -1,0 +1,292 @@
+﻿<!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> Batalla del 5 de Mayo </title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app6.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/zaragoza.jpg','imagenes/bailes.jpg','imagenes/batalla2.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Batalla del 5 de Mayo </h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> 4 de Mayo </h1>
+    <div>
+     <img src="imagenes/4.jpg" width="50%" height="50%"> 
+    </div>
+   </div>
+  </div>
+  <div data-role="collapsible" data-comtent-theme="false">
+    <h1> 5 de Mayo </h1>
+    
+     <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="https://culturacolectiva.com/historia/cinco-de-mayo-la-batalla-de-puebla/" data-role="button">
+       <p> Más... </p>
+       </a>
+       </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+   
+  
+
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Batalla del 4 de Mayo </h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Batalla del 5 de Mayo </h2> 
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Inicio del conflicto </h2>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Monumentos y museos </h2> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Héroes de la batalla </h2> 
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <div>
+    <h4> Aplicación Seis </h4>
+    <h4> MYRR </h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Batalla 4 Mayo </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. </h2>
+    <br> 
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/bailes.jpg',1)"><img src="imagenes/batalla3.jpg" width="50%" height="50%" id="Image26"></a> </div>
+  </div>
+ 
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Seis </h4>
+   <h4> MYRR </h4>
+</div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Batalla 5 Mayo </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva. </h2>
+   </div>
+  </div>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/4mayo.jpg" alt="4mayo" title="4mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/4mayo1.jpg" alt="4mayo1" title="4mayo1" id="wows1_1"/></li>
+		<li><img src="data1/images/5mayo1.jpg" alt="5mayo1" title="5mayo1" id="wows1_2"/></li>
+		<li><img src="data1/images/5mayo3.jpg" alt="5mayo3" title="5mayo3" id="wows1_3"/></li>
+		<li><img src="data1/images/5mayo4.jpg" alt="5mayo4" title="5mayo4" id="wows1_4"/></li>
+		<li><img src="data1/images/5mayo5.jpg" alt="5mayo5" title="5mayo5" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/batalla2.jpg" alt="bootstrap image slider" title="batalla2" id="wows1_6"/></a></li>
+		<li><img src="data1/images/batalla4.jpg" alt="batalla4" title="batalla4" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="4mayo"><span><img src="data1/tooltips/4mayo.jpg" alt="4mayo"/>1</span></a>
+		<a href="#" title="4mayo1"><span><img src="data1/tooltips/4mayo1.jpg" alt="4mayo1"/>2</span></a>
+		<a href="#" title="5mayo1"><span><img src="data1/tooltips/5mayo1.jpg" alt="5mayo1"/>3</span></a>
+		<a href="#" title="5mayo3"><span><img src="data1/tooltips/5mayo3.jpg" alt="5mayo3"/>4</span></a>
+		<a href="#" title="5mayo4"><span><img src="data1/tooltips/5mayo4.jpg" alt="5mayo4"/>5</span></a>
+		<a href="#" title="5mayo5"><span><img src="data1/tooltips/5mayo5.jpg" alt="5mayo5"/>6</span></a>
+		<a href="#" title="batalla2"><span><img src="data1/tooltips/batalla2.jpg" alt="batalla2"/>7</span></a>
+		<a href="#" title="batalla4"><span><img src="data1/tooltips/batalla4.jpg" alt="batalla4"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+<br>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Seis </h4>
+   <h4> MYRR </h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Conflicto de la Batalla </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.
+
+Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios. </h2>
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/batalla2.jpg',1)"><img src="imagenes/3.jpg" width="600" height="400" id="Image27"></a> 
+ <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="http://kiworo.blogspot.mx/" data-role="button">
+       <p> Más </p>
+       </a>
+       </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+   <br>
+   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Seis </h4>
+   <h4> MYRR </h4>
+  </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Monumentos y museos </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Los fuertes de Loreto y Guadalupe son unas antiguas edificaciones militares que se encuentran en la ciudad de Puebla. Originalmente se trataba de capillas construidas en lo alto de un cerro Acueyametepec, que fueron reconstituidas a principios del siglo XIX como fortificaciones con finalidades militares. Sirvieron como escenario principal tanto en la batalla como en el sitio de Puebla, durante la Segunda Intervención Francesa en México. Declarados como patrimonio histórico de México, actualmente albergan museos de sitio </h2>
+    <img src="imagenes/loreto.jpg" width="50%" height="50%">
+       <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="http://puebla.travel/es/museos/item/museo-de-sitio-fuerte-de-guadalupe" data-role="button">
+       <p> Más </p>
+       </a>
+       </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+   <br>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Seis </h4>
+   <h4> MYRR </h4>
+  </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Héroes </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Si hay alguien destacado entre todos ése es Ignacio Zaragoza, Ministro de Guerra y militar que dirigió el Ejército Mexicano, quienes, acompañados por un grupo de indígenas -conocidos erróneamente como zacapoaxtlas- se rebelaron en las afueras de la ciudad de Puebla contra las tropas francesas, dirigidas por el conde de Lorencez, Charles Ferdinand Latrille, durante la Segunda Intervención Francesa en México. </h2>
+    <br> 
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/zaragoza.jpg',1)"><img src="imagenes/charles.jpg" width="50%" height="50%" id="Image9"></a> 
+     <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="http://www.saberia.com/quienes-lucharon-en-la-batalla-del-5-de-mayo/" data-role="button">
+       <p> Más </p>
+       </a>
+       </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+   <br>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/caballo.png" width="46" height="46">
+   </div>
+   <h4> Aplicación Seis </h4>
+   <h4> MYRR </h4>
+  </div>
+  </div>
+  </div>
+  
+ 
+   
+  </body>
+  </html>
+  
+ 
+        
